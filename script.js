@@ -200,6 +200,7 @@ function toggleMode(e) {
     search.classList.remove("not-as-dark");
     searchIcon.classList.remove("not-as-dark");
     content.forEach((item) => item.classList.remove("not-as-dark"));
+
     card.forEach((item) => item.classList.remove("not-as-dark"));
   }
 }
