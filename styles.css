@@ -77,7 +77,6 @@ header .search-container button {
   cursor: pointer;
 }
 #search {
-  width: 80%;
   border: none;
   outline: none;
 }
