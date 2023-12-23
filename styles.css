@@ -179,6 +179,9 @@ section {
     padding: 4px;
     margin-bottom: 2vh;
   }
+  .dropdown-content {
+    width: 180px;
+  }
 }
 
 @media only screen and (max-width: 510px) {
