@@ -26,6 +26,7 @@ nav {
   /* position: fixed; */
   padding-block: 3rem;
   font-size: 1.2rem;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 .header-text {
   margin-right: auto;
@@ -57,6 +58,7 @@ header .search-container {
   background-color: var(--white);
   width: 30vw;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 header input[type="text"] {
@@ -79,9 +81,7 @@ header .search-container button {
 #search {
   border: none;
   outline: none;
-}
-header .search-container button:hover {
-  background: #ccc;
+  width: 80%;
 }
 
 /* Dropdown style */
@@ -92,6 +92,7 @@ header .search-container button:hover {
   border: none;
   cursor: pointer;
   background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 
 .dropdown-content {
@@ -133,6 +134,7 @@ header .search-container button:hover {
 .card {
   margin: 3rem;
   background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
 }
 span {
   font-weight: 700;
