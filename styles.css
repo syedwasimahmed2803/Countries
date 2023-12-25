@@ -87,6 +87,10 @@ header .search-container button {
 }
 
 /* Dropdown style */
+.dropdown {
+  width: fit-content;
+}
+
 .dropbtn {
   color: black;
   padding: 16px;
@@ -169,7 +173,17 @@ section {
   padding-left: 2vw;
   color: var(--dark-grey);
 }
-
+.card .flag {
+  width: 100%;
+  height: 50%;
+  /* height: auto; */
+  display: block;
+}
+.card {
+  width: 320px;
+  height: 350px;
+  /* width: fit-content; */
+}
 @media only screen and (max-width: 960px) {
   .header {
     display: block;
